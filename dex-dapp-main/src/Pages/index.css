@@ -1,0 +1,66 @@
+.notFoundWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 79.3vh;
+  width: 100%;
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+  border-bottom: 1px solid #797979;
+}
+
+.predictionMainWrapper {
+  min-height: 100vh;
+  padding: 3rem 0;
+}
+
+.stakingTitle {
+  display: flex;
+  text-align: start;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.stakingTitle span {
+  width: 70%;
+  /* color: #ffffff; */
+  /* color: rgb(0, 0, 0); */
+  font-size: 3rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+@media (max-width: 768px) {
+  .stakingTitle {
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+  }
+  .stakingTitle span {
+    font-size: 2rem;
+    width: 100%;
+  }
+}
+
+.predictionTopWrapper{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.dashboardTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin-top: 1.5rem;
+  font-weight: 800 !important;
+
+  margin-bottom: 1.5rem;
+  background: linear-gradient(280deg, #2cb455 49.3%, #0bb713 89.09%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

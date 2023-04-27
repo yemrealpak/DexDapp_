@@ -1,0 +1,269 @@
+.transactions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  height: 100%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  backdrop-filter: blur(10px) !important;
+  border-radius: 1rem;
+}
+
+
+@media (max-width: 1920px) {
+  .transactions {
+    width: 75%;
+  }
+}
+@media (max-width: 1670px) {
+  .transactions {
+    width: 85%;
+  }
+}
+@media (max-width: 1440px) {
+  .transactions {
+    width: 90%;
+  }
+}
+@media (max-width: 1100px) {
+  .transactions {
+    width: 95%;
+  }
+}
+.transactions-head {
+  padding-left: 0.5em;
+}
+.transactions-head p {
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+}
+
+.transactions-thead th {
+  
+ 
+  color: #0b8848;
+  font-weight: 400 !important;
+}
+.transacions-logo-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.transactions-tbody tr {
+  /* margin-top: 1rem; */
+  color: #fff;
+
+  /* text-align: center; */
+}
+table {
+  border-collapse: inherit !important;
+  border-spacing: 0.5em 1em !important;
+  background: #1515158b;
+  padding: 1rem;
+  border-top: 8px solid #478564 !important;
+  border-radius: 0.5rem !important;
+}
+
+.transactions-coin-logo {
+  width: 24px;
+  height: 24px;
+}
+.transactions-coin-logo-img {
+  width: 100%;
+  height: 100%;
+  margin-top: -3px;
+}
+.transactions-cancel-btn {
+  border: none;
+  background-color: #0b8848;
+  color: #fcfcfd;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 24px;
+  cursor: pointer;
+  padding: 12px;
+  display: flex;
+
+  /* width: 75%; */
+}
+.transactions-submit-btn {
+  background: #0b8848;
+  border-radius: 24px;
+  padding: 10px;
+  border: none;
+  color: #fcfcfd;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 40%;
+}
+
+.transactionsMobile {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+.transaction-body-text td {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+}
+.transaction-body-textY td {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media (max-width: 720px) {
+  .transactions-theadx{
+    align-items: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+   
+  }
+  .transactions-thead {
+    font-size: 0.72rem;
+    /* gap: 1.9rem; */
+    display: flex;
+    flex-direction: row;
+    color: #0b8848;
+    font-weight: 400 !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .transactionsMobile {
+    display: flex;
+  }
+
+
+  .trMain {
+    justify-content: center;
+    display: flex;
+  }
+  .transactions {
+    display: none !important;
+  }
+  .trMain td {
+    -webkit-text-stroke-width: medium;
+    display: flex;
+    padding: 0.6rem;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 12px ;
+  }
+}
+
+@media (max-width: 478px){
+.trMain td {
+    font-size: 8.6px ;
+}
+}
+.transactions-head-mobile {
+  text-align: center;
+}
+.transactions-head-mobile p {
+  font-weight: 700;
+  font-size: 24px;
+  color: #070714;
+  margin-bottom: 0rem;
+}
+
+@media (max-width: 768px) {
+  .transactions-claim-btn {
+    display: none !important;
+  }
+}
+.transactionsWrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.transaction-body-mobile {
+  display: none;
+  margin-top: 0.5rem;
+  background: #1515158b;
+  padding: 1rem;
+  flex-direction: column;
+  border-top: 8px solid #0b8848 !important;
+  border-radius: 0.5rem !important;
+}
+.transaction-body-mobileY {
+  display: none;
+  margin-top: 0.5rem;
+  background: #1515158b;
+  padding: 1rem;
+  flex-direction: column;
+  border-top: 8px solid #0b8848 !important;
+  border-radius: 0.5rem !important;
+}
+.transaction-body-text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  flex-direction:column;
+}
+.transaction-body-textY {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+.transaction-body-text span {
+  font-size: 13px;
+
+  color: #0b8848;
+}
+.transaction-body-textY span {
+  font-size: 13px;
+
+  color: #0b8848;
+}
+.button-content-mobile {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .transactions {
+    display: none;
+  }
+  .transaction-body-mobile {
+    display: flex !important;
+    justify-content: center !important;
+    padding: 0 !important;
+  }
+  .transaction-body-text {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .transaction-body-mobileY {
+    -webkit-text-stroke-width: medium;
+    display: flex !important;
+    padding: 10px !important;
+    font-size: 12px;
+  }
+  .transaction-body-textY {
+    display: flex !important;
+  }
+  .transactions-thead th {
+    display: flex !important;    
+  }
+  .top25-mobile-thead{
+    color: #0b8848;
+    font-weight: 400 !important;
+    font-size: 11px;
+    /* display: flex !important; */
+    /* justify-content: center !important; */
+  }
+}
+.transaction-mobile-data {
+  color: #fff;
+}
+

@@ -1,0 +1,136 @@
+.modal-content{
+    background-color:#000000 !important;
+    border-radius: 12px !important;
+    border: 1px solid rgb(119, 118, 118) !important;
+}
+.modal-header{
+    border-bottom: 1px solid #323855 !important;
+}
+.modal-body{
+    padding:1rem 1.2rem !important;
+}
+.modal-title.h4{
+    width: 100% !important;
+    text-align: -webkit-center !important;
+    color: #fff !important;
+}
+.btn-close{
+    background-image: url(../../Assets/btnClose.png) !important;
+    opacity: 0.8 !important;
+}
+.btn-close:hover{
+    opacity: 1 !important;
+}
+.btn-close:focus{
+    box-shadow: none !important;
+}
+.buyTicketInputWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 0.5rem;
+
+}
+.buyTicketInputWrapperTitle{
+    color: #fff;
+    font-size: 1rem;
+    text-align: start;
+    width: 100%;
+    padding-left: 5px;
+}
+.buyTicketInput{
+    width: 80%;
+    display: flex;
+    background: none;
+    border:none !important;
+    outline: none !important;
+    color: #fff;
+   
+
+}
+.buyTicketInputContent{
+ display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid #424867;
+    border-radius: 16px;
+    padding:1rem;
+}
+.buyTicketInputContent span{
+    color: #fff;
+    font-size: 1rem;
+    width: 20%;
+    text-align: center;
+}
+.buyTicketCostWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2rem;
+}
+.buyTicketCostWrapper span{
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+}
+.buyTicketCalculateWrapper{
+    display : flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2rem;
+}
+.buyTicketCalculateContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.buyTicketCalculateContent span{
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+}
+.buyTicketInfo{
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    margin-top: 1rem;
+}
+.buyTicketInfo span{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+}
+.buyTicketButtonWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+.buyTicketButton{
+    width: 100%;
+    background: rgba(46, 182, 125, 1);
+    border: none;
+    border-radius: 14px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem;
+    letter-spacing: 2px;
+   
+}
+.costTicketWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}

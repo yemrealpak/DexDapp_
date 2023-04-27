@@ -1,0 +1,70 @@
+/* @import url('https://fonts.googleapis.com/css?family=Poppins');
+*{
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+*{
+    font-family: 'Syne Mono', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/*custom connect modal*/
+
+.videoWrapper{ 
+  position: fixed; 
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -2;
+}
+
+.videoBg{
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+
+.iekbcc0.ju367v77.ju367v7s.ju367v8a.ju367v6j.ju367v4.ju367va.ju367v2m{
+    display: none !important;
+}
+
+@media (max-width: 768px){
+    .iekbcc0.ju367v79.ju367v7u.ju367v4.ju367va.ju367v10.ju367v1u,.iekbcc0.ju367v76.ju367v7r.ju367v8f,.iekbcc0.ju367vao.ju367v1z.ju367v37.ju367v52{
+        display: none !important;
+    }
+    [data-rk] .ju367v6p {
+padding-bottom: 0px !important;
+    }
+}
+::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #fff;
+    border-radius: 100px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #0B8848;
+    border-radius: 100px;
+  }
+  input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
